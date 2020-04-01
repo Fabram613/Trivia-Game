@@ -4,7 +4,7 @@ body {
 
 /*JUMBOTRON*/
 .jumbotron {
-    background-image: url("../images/sigil-background.jpg");
+    background-image: url("../images/sigils.png");
     margin-bottom: 50px;
     min-height: 50%;
     background-repeat: no-repeat;
@@ -149,7 +149,6 @@ body {
 }
 
 #footer {
-    background-color: #000000;
     text-align: center;
     font-size: 15px;
     color: #fff568;
