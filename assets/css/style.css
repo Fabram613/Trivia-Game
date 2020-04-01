@@ -5,13 +5,14 @@ body {
 /*JUMBOTRON*/
 .jumbotron {
     background-image: url("../images/sigil-background.jpg");
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     min-height: 50%;
     background-repeat: no-repeat;
     background-position: center;
+    -webkit-background-size: cover;
     background-size: cover;
     padding-top: 140px;
-    padding-bottom: 140px;
+    padding-bottom: 200px;
     width: 100%
 }
 
@@ -22,7 +23,7 @@ body {
 
 #gameCol {
     text-align: center;
-    border: 2px solid #ffffac;
+    border: 2px solid #fff568;
     border-radius: 5px;
     padding: 30px;
     min-height: 300px;
@@ -31,7 +32,7 @@ body {
 
 /*START BUTTON*/
 #startBtn {
-    background-color: #ffffac;
+    background-color: #fff568;
     color: black;
     border: 1px solid #000000;    
     font-size: 200%;
@@ -42,13 +43,13 @@ body {
 
 #startBtn:hover {
     background-color: black;
-    color: #ffffac;
-    border: 1px solid #ffffac;    
+    color: #fff568;
+    border: 1px solid #fff568;    
 }
 
 #timeLeft {
     font-size: 300%;
-    color: #ffffac;
+    color: #fff568;
     letter-spacing: 2px;
     font-weight: 500;
 }
@@ -71,14 +72,14 @@ body {
     text-align: center;
     margin-right: 30px;
     margin-left: 30px;
-    color: #ffffac;
+    color: #fff568;
     font-size: 150%;
     line-height: 2.5;
     margin-bottom: 30px;
 }
 
 .thisChoice:hover {
-    background-color: #ffffac;
+    background-color: #fff568;
     color: black;
 }
 
@@ -90,7 +91,7 @@ body {
 }
 
 #correctedAnswer {
-    color: #ffffac;
+    color: #fff568;
     font-size: 100%;
     text-transform: uppercase;   
 }
@@ -108,13 +109,13 @@ body {
 }
 
 #gifCaption {
-    color: #ffffac;
-    font-size: 18px;
+    color: #fff568;
+    font-size: 15px;
 
 }
 
 .reset {
-    background-color: #ffffac;
+    background-color: #fff568;
     color: black;
     border: 1px solid #000000;
     font-size: 200%;
@@ -128,8 +129,8 @@ body {
 
 .reset:hover {
     background-color: black;
-    color: #ffffac;
-    border: 1px solid #ffffac;    
+    color: #fff568;
+    border: 1px solid #fff568;    
 }
 
 #finalMessage {
@@ -140,9 +141,18 @@ body {
 }
 
 #correctAnswers, #incorrectAnswers, #unanswered {
-    color: #ffffac;
+    color: #fff568;
     font-size: 150%;
     text-transform: uppercase;
     letter-spacing: 1px;
     line-height: 2;
+}
+
+#footer {
+    background-color: #000000;
+    text-align: center;
+    font-size: 15px;
+    color: #fff568;
+    position: sticky;
+
 }

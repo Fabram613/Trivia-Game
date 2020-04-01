@@ -123,7 +123,7 @@ $(document).ready(function(){
                 answerText: "Ser Jorah believes that he can win the favor of Daenerys Targaryen by handing over Tyrion to be executed, but instead Daenerys sees the value in Tyrion's knowledge of the enemy and decides to spare him and make him her advisor."
             },		
     
-            {	question: "Dany's full title is: 'Daenerys Stormborn of the House Targaryen, First of Her Name, The Unburnt, Queen of the Andals, the Rhoynar, and the First Men, Queen of Meereen, Khaleesi of the Great Grass Sea, Protector of the Realm, Lady Regent of the Seven Kingdoms, Breaker of Chains, and MOTHER OF DRAGONS'. She has three dragons: Rhaegal, Viserion, and...?",
+            {	question: "Daenerys has many titles, one of which is 'Mother of Dragons'. She has three dragons: Rhaegal, Viserion, and...?",
                 answerList: [	"Draco",
                             "Dondarion",
                             "Drakkaseth",
@@ -216,7 +216,7 @@ $(document).ready(function(){
     
         //This function is for the timer countdown
         function countdown(){
-            seconds = 15;
+            seconds = 20;
             $("#timeLeft").html("00:" + seconds);
             answered = true;
             //Sets a delay of one second before the timer starts
