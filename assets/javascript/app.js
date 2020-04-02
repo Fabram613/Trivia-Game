@@ -1,14 +1,15 @@
 /* 
-GAME STRUCTURE:
+GAME INSTRUCTIONS:
 ===============
-01. The game starts when the player hits the START button.
-02. Once the game starts the is a clock countdown.
-03. The time given is the total time to finish the whole game.
-04. The game ends if the time runs out, Game Over.
-05. The player can only guess one answer per question.
-06. Include the timer so the player can see it.
-07. All the questions are displayed at once.
-08. There is a DONE button at the end, if the user is finished before the timer stops.
+1. The game starts when the player hits the START button.
+2. The clock begins to countdown once the game starts.
+3. The time given is the total amount of time to answer each question.
+4. The game ends if the time runs out.
+5. Player can only select one answer per question.
+6. Show countdown timer so player knows how much time is left.
+7. All of the questions are displayed at once for each question asked.
+8. Once the answer is selected or time runs out, there is a small delay before the next question.
+9. At the end of the 10 questions, displays player's overall score and allows user to reset and play again.
 */
 
 //IMPORTANT!
@@ -147,8 +148,8 @@ $(document).ready(function(){
         ];
     
     
-    // FUNCTIONS
-    // =========
+        // FUNCTIONS
+        // =========
     
         //This hides the game area on page load
         $("#gameCol").hide();
@@ -281,10 +282,10 @@ $(document).ready(function(){
             }
             
             if(currentQuestion == (triviaQuestions.length-1)){
-                setTimeout(scoreboard, 10000);
+                setTimeout(scoreboard, 7000);
             } else{
                 currentQuestion++;
-                setTimeout(newQuestion, 10000);
+                setTimeout(newQuestion, 7000);
             }	
         }
     
@@ -308,3 +309,5 @@ $(document).ready(function(){
     
     
     }); 
+
+    //CODE ENDS HERE
